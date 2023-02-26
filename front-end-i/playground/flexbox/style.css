@@ -1,0 +1,46 @@
+div {
+    /* display: block; */
+}
+.caixa-1{
+    border: 5px;
+    border-style: solid;
+    margin: 5px 0px;
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    /* position: relative;  
+    left: 100px;
+       top: 50px; */
+}
+   
+   .caixa-2{
+       background-color: green;
+       height: 200px;
+       width: 200px;
+       border: 5px;
+       border-style: solid;
+       margin: 5px 0px;
+       padding: 5px;
+}
+   
+   .caixa-3 {
+       background-color: red;
+       height: 200px;
+       width: 200px;
+       border: 5px;
+       border-style: solid;
+       margin: 5px 0px;
+       padding: 5px;
+       /* position: absolute;
+       right: 100px;
+       top: 50px; */
+}
+
+.container-pai {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

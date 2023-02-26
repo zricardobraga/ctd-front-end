@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style-index.css">
+    <title>Nome da Loja</title>
+</head>
+<body>
+    <header class="header-main">
+        <section class="header-strip">
+            <p>20% de desconto em todos os produtos!</p>
+        </section>
+        <section class="header-logo">
+            <img class="logo-img" src="./imgs/loja.png" alt="">
+            <h1>Nome da loja</h1>
+        </section>
+        <section class="header-nav-bar">
+            <ul class="list-items">
+                <li><a href="">Contato</a></li>
+                <li><a href="">Registrar-se</a></li>
+                <li><a href="">Login</a></li>
+            </ul>
+        </section>
+    </header>
+
+    <main class="main-content">
+
+        <section class="form-content">
+            <div class="form-text">
+                <h2>Adicionar o seu super-herói</h2>
+                <p>Adicione seu personagem favorito completando as informações</p>
+            </div>
+
+            <div class="form-box">
+                <div class="form-box-1">
+                    <form class="items" action="">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name">
+                        <label for="bornDate">Data de nascimento</label>
+                        <input type="date" id="bornDate">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Descrição"></textarea>
+                    </form>
+                </div>
+
+                <div class="form-box-2">
+                    <form class="items" action="">
+                        <label for="especie">Espécie</label>
+                        <select name="" id="especie">
+                            <option value="" selected>Selecione a espécie</option>
+                            <option value="">Humano</option>
+                            <option value="">Extraterrestre</option>
+                            <option value="">Ser sobrenatural</option>
+                        </select>
+                        <label for="arquivo">Adicionar foto</label>
+                        <input type="file">
+
+                        <div class="poderes">
+                            <p>Poderes</p>
+        
+                            <label for="voar">
+                                <input type="checkbox" id="voar">
+                                Voar
+                            </label>
+
+                            <label for="superInteligencia">
+                                <input type="checkbox" id="superInteligencia">
+                                Super Inteligência
+                            </label>
+
+                            <label for="visao">
+                                <input type="checkbox" id="visao">
+                                Visão de raio laser
+                            </label>
+
+                            <label for="rico">
+                                <input type="checkbox" id="rico">
+                                Super Rico
+                            </label>
+                            
+                        </div>
+
+                        <div class="tipo">
+                            <p>Tipo de personagem</p>
+                            <label for="heroi-heroina">
+                                <input type="radio" id="heroi-heroina">
+                                Herói/Heroína
+                            </label>
+                            <label for="vilao-vila">
+                                <input type="radio" id="vilao-vila">
+                                Vilão/Vilã
+                            </label>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+
+            <button>
+                Adicionar
+            </button>
+
+        </section>
+
+    </main>
+
+    <footer class="footer-main">
+
+        <p>Todos os direitos reservados a FRONT-END I</p>
+
+    </footer>
+</body>
+</html>

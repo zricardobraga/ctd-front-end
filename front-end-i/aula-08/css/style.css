@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #131313;
+
+}
+
+h1 {
+    color: white;
+    /* font-family: 'Roboto', sans-serif; */
+    margin: 20px;
+}
+
+.media-picture {
+    height: 900px;
+    background-image: url(http://4.bp.blogspot.com/-_jG_bquPPEM/VM1NKsKdAZI/AAAAAAAAQTs/fYYZs-cBiW8/s1600/interestelar.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.review-score  {
+    color: white;
+    background-color: #e6bd09;
+    padding: 12px;
+    /* margin: 10px; */
+}
+
+h2 {
+    color: steelblue;
+    margin: 20px;
+}
+
+p {
+    color: #bdbdbd;
+    /* font-family: 'Roboto', sans-serif; */
+    margin: 20px; 
+}
+
+a  {
+    color: yellow;
+    margin: 20px;
+}
+
+
+
