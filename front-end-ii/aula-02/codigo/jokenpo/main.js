@@ -28,7 +28,14 @@ function jogo() {
         user += 1;
     } else if (optionUser === optionCpu) {
         alert("Empate!");
-    } else {
+    } 
+    
+    else if (optionUser != 1 || optionUser != 2 || optionUser != 3){
+        alert("Por favor selecione uma das opções validas");
+
+    } 
+    
+    else {
         alert("Você perdeu essa rodada!");
         cpu += 1;
     }
@@ -55,36 +62,40 @@ nivel = parseInt(
 
 console.log(nivel);
 
-switch (nivel) {
-    case 1:
-        do {
-            jogo();
-            rodadas = 3;
-            contador++;
-        } while (contador < rodadas);
-        placar(rodadas, user, cpu);
-        break;
-
-    case 2:
-        do {
-            jogo();
-            rodadas = 5;
-            contador++;
-        } while (contador < rodadas);
-        placar(rodadas, user, cpu);
-        break;
-
+do {
+    switch (nivel) {
+        case 1:
+            do {
+                jogo();
+                rodadas = 3;
+                contador++;
+            } while (contador < rodadas);
+            placar(rodadas, user, cpu);
+            break;
+    
         case 2:
-        do {
-            jogo();
-            rodadas = 7;
-            contador++;
-        } while (contador < rodadas);
-        placar(rodadas, user, cpu);
-        break;
-    default:
-        break;
-};
+            do {
+                jogo();
+                rodadas = 5;
+                contador++;
+            } while (contador < rodadas);
+            placar(rodadas, user, cpu);
+            break;
+    
+            case 3:
+            do {
+                jogo();
+                rodadas = 7;
+                contador++;
+            } while (contador < rodadas);
+            placar(rodadas, user, cpu);
+            break;
+        default:
+            alert("Por favor selecione uma das opções validas"); 
+            break;
+    };
+} while (nivel <= 0 || nivel >= 4);
+
 
 
 
