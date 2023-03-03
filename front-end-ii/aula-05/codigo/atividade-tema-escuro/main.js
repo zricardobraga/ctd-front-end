@@ -1,10 +1,5 @@
 function temaEscuro() {
-    let temaBody = document.querySelector('body');
-    let temaCartao = document.querySelectorAll('.container');
-    console.log(temaCartao); 
-    temaBody.classList.toggle('dark');
-    temaCartao.classList.replace('dark');
+    let button = document.querySelector('body');
+    button.classList.toggle('dark-mode');
 
-
-    // menu.style.backgroundColor = 'white';
 }

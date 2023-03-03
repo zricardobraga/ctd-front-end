@@ -10,44 +10,11 @@ body {
   background-color: rgb(219, 219, 219);
 }
 
-body.dark-mode{
-  background-color: rgb(39, 39, 39);
-}
-
-.main-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: fit-content;
-  background-color: #ffffff;
-  padding-right: 20px; 
-}
-
-.dark-mode .main-header {
-  background-color: #131313;
-}
-
-.main-header button {
-  padding: 10px;
-  width: fit-content;
-  height: 40px;
-  font-size: 10px;
-  
-}
-
 h1 {
   padding: .5em 1em;
   background-color: white;
-  /* border-bottom: 1px solid #d3d3d3; */
+  border-bottom: 1px solid lightgrey;
   color: grey;
-}
-
-.dark-mode h1 {
-  background-color: rgb(19, 19, 19);
-  color: rgb(170, 170, 170);
-  border-color: black;
 }
 
 .container {
@@ -68,11 +35,6 @@ h1 {
   border: 1px solid lightgray;
 }
 
-.dark-mode .item{
-  background-color: rgb(19, 19, 19);
-  border-color: black;
-}
-
 .item img {
   width: 100%;
 }
@@ -82,9 +44,6 @@ h1 {
   margin-bottom: .2em;
 }
 
-.dark-mode .item h2, .dark-mode .item p {
-  color: rgb(230, 230, 230);
-}
 
 /* ------------------------------ Estilos para o tema escuro (Dark-Mode) ----------------------------------------------- */
 
