@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 40px;
+  background-color: #050505;
+}
+body form.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #151515;
+}
+body form.form h2 {
+  color: #FFFFFF;
+}
+body form.form div {
+  display: flex;
+  flex-direction: column;
+}
+body form.form div small {
+  display: none;
+  color: #FFFFFF;
+}
+body form.form input {
+  width: 900px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
+  color: #FFFFFF;
+  background-color: #1F1F1F;
+}
+body form.form div.error input {
+  background-color: rgba(240, 0, 0, 0.1176470588);
+}
+body form.form div.error small {
+  color: #F00000;
+  display: block;
+}
+body form.form textarea {
+  width: 900px;
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
+  color: #FFFFFF;
+  background-color: #1F1F1F;
+}
+body form.form div {
+  display: flex;
+  flex-direction: row-reverse;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px;
+}
+body form.form div button.btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  color: #FFFFFF;
+  background-color: #6ce971;
+}
+body form.form div button.btn:disabled {
+  opacity: 0.2;
+}
+body section.characters {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 70%;
+  height: 100vh;
+  padding: 20px;
+}
+body section.characters div h2 {
+  color: #FFFFFF;
+}
+body section.characters div.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 40px;
+}
+body section.characters div.container div.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  width: 360px;
+  height: 512px;
+  border-radius: 12px;
+  background-color: #FFFFFF;
+}
+body section.characters div.container div.card div.card-image {
+  background-size: cover;
+  width: 100%;
+}
+body section.characters div.container div.card div.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}/*# sourceMappingURL=style.css.map */

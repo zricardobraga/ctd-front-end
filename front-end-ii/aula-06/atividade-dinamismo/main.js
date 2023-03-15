@@ -30,7 +30,7 @@ const felins = [
     tittle: "O guepardo",
     text: "O guepardo, ou chita (Acinonyx jubatus) é um membro atípico da família felina. É o único representante vivo do gênero Acinonyx. Ele caça graças à sua visão e grande velocidade. É o animal terrestre mais rápido do mundo, atingindo uma velocidade máxima de 115 km/h em corridas de até quinhentos metros.",
   },
-
+ 
   {
     imageUrl: "./imagens/chita.jpg",
     tittle: "O guepardo",

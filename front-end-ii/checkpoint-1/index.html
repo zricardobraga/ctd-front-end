@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Checkpoint 1</title>
+</head>
+
+<body>
+    <form class="form" id="charForm">
+        <h2>Criação de personagens</h2>
+        <div>
+            <input type="text" id="charTitle" required placeholder="Título">
+            <small>Preencha o título corretamente!</small>
+        </div>
+        <div>
+            <input type="url" id="imgUrl" placeholder="URL" required>
+            <small>Preencha a URL corretamente</small>
+        </div>
+        <div>
+            <input type="text" id="charDescription" placeholder="Descrição" required></input>
+            <small>Descreva o seu personagem</small>
+        </div>
+
+        <button type="submit" class="btn" id="registerBtn" disabled>Cadastrar</button>
+    </form>
+
+    <section class="characters">
+        <div>
+            <h2>Personagens criados</h2>
+        </div>
+
+        <div class="container" id="content">
+
+        </div>
+    </section>
+
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>
